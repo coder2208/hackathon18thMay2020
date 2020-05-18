@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css"></link>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container d-inline-block">
+                <img src="images/logo-3.png" />
+                <span class="logo-text pl-1 pt-2"><a href="index.html">Reserach Tool</a></span>
+            </div>
+            <div class="nav-links-container d-inline-block float-right mt-2">
+                <ul class="mb-0">
+                    <li class="mr-4 d-inline-block align-middle"><a href="newResearch.html">New Reserach</a></li>
+                    <li class="mr-4 d-inline-block align-middle"><a href="dashboard.html">My Dashboard</a></li>
+                    <li class="mr-2 d-inline-block ">
+                        <a href="/">
+                            <img class="icon icon-person" src="images/open-iconic/person.svg" alt="icon name">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="main-content pt-5" style="background: #fff;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <h2>Start a new Reserach</h2>
+                    <form class="mt-4">
+                        <div class="form-group">
+                          <label for="name">Enter a name for your research.</label>
+                          <input type="text" class="form-control" id="name" aria-describedby="research name" placeholder="Name">
+                        </div>
+                        <div class="form-group mt-4">
+                            <label for="desc">Enter a short description</label>
+                            <textarea class="form-control" id="desc" aria-describedby="research name" placeholder="Description"></textarea>
+                          </div>
+                        <div class="form-group mt-4">
+                          <label for="topic">Select Topic</label>
+                          <select class="form-control" id="topic">
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                          </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary mt-4"><a href="articles.html" style="color: #fff;">Explore</a></button>
+                    </form>
+                </div>
+                <div class="col-sm-3 offset-sm-1">
+                    <h5>Trending topics&nbsp;
+                        <span><img class="icon icon-person pl-1" src="images/open-iconic/graph.svg" alt="icon name"></span>
+                    </h5>
+                    <hr />
+                    <ul style="padding-left: 22px;">
+                        <li class="mt-2">Cholesterol</li>
+                        <li class="mt-2">Euthanasia</li>
+                        <li class="mt-2">Childhood Obesity</li>
+                        <li class="mt-2">Epidemiology</li>
+                        <li class="mt-2">Epidemiology</li>
+                        <li class="mt-2">Childhood Obesity</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <hr class="mt-0">
+        <div class="footer__bottom">
+            <div class="">
+                <div class="col-10">
+                    <span class="footer-logo mr-2 d-inline-block">
+                        <img src="images/logo.png" />
+                    </span>
+                    <span class="d-inline-block">
+                        Copyright © 2020 medicine, Inc.
+                    </span>
+                    <ul class="footer__links d-inline-block">
+                        <li class="mr-2 d-inline-block"><a href="/">About us</a></li>
+                        <li class="mr-2 d-inline-block"><a href="/">Privacy Policy</a></li>
+                        <li class="mr-2 d-inline-block"><a href="/">Terms</a></li>
+                        <li class="mr-2 d-inline-block"><a href="/">Help and Support</a></li>
+                        <li class="mr-2 d-inline-block"><a href="/">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
